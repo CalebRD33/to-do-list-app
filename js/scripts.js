@@ -9,6 +9,7 @@ function newItem() {
         alert('You must write something!');        
     } else {
         $('#list').append(li);
+        $('#input').val('');
     }
 
 // Cross out an item from the list
@@ -35,5 +36,4 @@ function newItem() {
 // Add ability to reorder the items
     $('#list').sortable();
 }
-
 
